@@ -3,7 +3,7 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/content_main"
+    android:id="@+id/content_channel"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:paddingBottom="@dimen/activity_vertical_margin"
@@ -11,7 +11,7 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context="edu.maxsdev.yarssclient.yarssclient.activities.MainActivity"
-    tools:showIn="@layout/activity_main">
+    tools:context="edu.maxsdev.yarssclient.yarssclient.activities.ChannelActivity"
+    tools:showIn="@layout/activity_channel">
 
 </android.support.v7.widget.RecyclerView>
