@@ -6,22 +6,22 @@ package edu.maxsdev.yarssclient.yarssclient.entities;
  */
 
 public class RssChannel {
-    private String title;
+    private String name;
     private String link;
     private String description;
 
-    public RssChannel(String title, String link, String description) {
-        this.title = title;
+    public RssChannel(String name, String link, String description) {
+        this.name = name;
         this.link = link;
         this.description = description;
     }
 
-    public String getTitle() {
-        return title;
+    public String getName() {
+        return name;
     }
 
-    public void setTitle(String title) {
-        this.title = title;
+    public void setName(String name) {
+        this.name = name;
     }
 
     public String getLink() {

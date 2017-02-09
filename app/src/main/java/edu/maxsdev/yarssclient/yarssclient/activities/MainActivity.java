@@ -13,8 +13,7 @@ import android.view.MenuItem;
 import java.util.List;
 
 import edu.maxsdev.yarssclient.yarssclient.R;
-import edu.maxsdev.yarssclient.yarssclient.RssReader;
-import edu.maxsdev.yarssclient.yarssclient.entities.RssItem;
+import edu.maxsdev.yarssclient.yarssclient.entities.RssChannel;
 
 public class MainActivity extends AppCompatActivity {
     RecyclerView recyclerView;
@@ -27,13 +26,12 @@ public class MainActivity extends AppCompatActivity {
         setSupportActionBar(toolbar);
         recyclerView = (RecyclerView) findViewById(R.id.content_main);
 
-        RssReader rssReader = new RssReader(getString(R.string.new_york_times_home_page_feed));
-        try {
-            List<RssItem> items = rssReader.getItems();
-            
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
+//        RssReader rssReader = new RssReader(getString(R.string.new_york_times_home_page_feed));
+//        try {
+//            List<RssItem> items = rssReader.getItems();
+//        } catch (Exception e) {
+//            e.printStackTrace();
+//        }
 
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
@@ -43,6 +41,10 @@ public class MainActivity extends AppCompatActivity {
                         .setAction("Action", null).show();
             }
         });
+    }
+
+    private List<RssChannel> getChannelsList() {
+        return null;
     }
 
     @Override
