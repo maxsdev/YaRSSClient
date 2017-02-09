@@ -5,12 +5,12 @@ package edu.maxsdev.yarssclient.yarssclient.entities;
  *
  */
 
-public class RSSChannel {
+public class RssChannel {
     private String title;
     private String link;
     private String description;
 
-    public RSSChannel(String title, String link, String description) {
+    public RssChannel(String title, String link, String description) {
         this.title = title;
         this.link = link;
         this.description = description;

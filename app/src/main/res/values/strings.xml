@@ -3,4 +3,14 @@
     <string name="action_settings">Settings</string>
     <string name="title_activity_channel">ChannelActivity</string>
     <string name="title_activity_post">PostActivity</string>
+
+    <string name="reuters_technology_news_feed">
+        http://feeds.reuters.com/reuters/technologyNews
+    </string>
+    <string name="new_york_times_music_news_feed">
+        http://rss.nytimes.com/services/xml/rss/nyt/Music.xml
+    </string>
+    <string name="new_york_times_home_page_feed">
+        http://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml
+    </string>
 </resources>
