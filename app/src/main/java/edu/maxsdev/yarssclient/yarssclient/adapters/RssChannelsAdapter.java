@@ -16,7 +16,7 @@ import edu.maxsdev.yarssclient.yarssclient.entities.RssChannel;
  *
  */
 
-class RssChannelsAdapter extends RecyclerView.Adapter<RssChannelsAdapter.RssChannelsViewHolder> {
+public class RssChannelsAdapter extends RecyclerView.Adapter<RssChannelsAdapter.RssChannelsViewHolder> {
 
     private List<RssChannel> channels;
     private OnItemClickListener listener;
